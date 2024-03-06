@@ -4,10 +4,17 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
-    "hono": "^3.12.5"
+    "@azure/storage-blob": "^12.17.0",
+    "@cloudflare/ai": "^1.0.47",
+    "@langchain/openai": "^0.0.13",
+    "crypto-js": "^4.2.0",
+    "hono": "^3.12.5",
+    "jsdom": "^24.0.0",
+    "langchain": "^0.1.9"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231218.0",
+    "@types/crypto-js": "^4.2.2",
     "wrangler": "^3.22.0"
   }
 }
